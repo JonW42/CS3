@@ -1,0 +1,65 @@
+.jumbotron {
+    background-image:url('http://whytoread.com/wp-content/uploads/2015/06/cognitive-science.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+}
+
+.jumbotron .container { 
+    position:absolute;
+    top: 0px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 48px;  
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.gallery-nav {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.gallery-nav .container{
+    display: flex;
+    justify-content: center;
+}
+
+#thumbnail{
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5e5e5e;
+}
+
+.gallery-nav h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.gallery-nav p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
