@@ -2,31 +2,31 @@ ul{
     list-style: none;
 }
 
-.jumbotron {
-    background-image:url('http://whytoread.com/wp-content/uploads/2015/06/cognitive-science.jpg');
+.jumbotron{
+    background-image:url('sfucsssbanner.jpg');
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     margin:auto;
 }
 
-.jumbotron .container { 
+.jumbotron .container{ 
     position:absolute;
     top:0px;
     left:0px;
     top: 0px;
 }
 
-.jumbotron h1 {
-    color: #fff;
+.jumbotron h1{
+    color: #f9a962;
     font-size: 48px;  
     font-family: 'Shift', sans-serif;
     font-weight: bold;
 }
 
-.jumbotron p {
+.jumbotron p{
     font-size: 20px;
-    color: #fff;
+    color: #8c1c40;
 }
 
 .jumbotron .contact{
@@ -38,7 +38,7 @@ ul{
     left:300px;
 }
 
-.gallery-nav {
+.gallery-nav{
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 }
@@ -60,21 +60,35 @@ ul{
     font-size: 24px;
 }
 
-.gallery-nav p {
+.gallery-nav p{
     font-size: 15px;
     margin-bottom: 13px;
 }
 
-.learn-more {
-  background-color: #f7f7f7;
+.nav-tabs > li > a{
+  color:#8c1c40;
 }
 
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+.nav-tabs > li > a:hover{
+    background-color: #dddddf !important;
+    
 }
 
-.learn-more a {
-  color: #00b0ff;
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+    color:#f9a962;
+    
+}
+
+.society h1{
+    color:black;
+}
+
+.events{
+    
+}
+
+.people{
+    
 }

@@ -5,61 +5,226 @@
     <title>SFU Cognitive Science Student Society</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="app.js"></script>
   </head>
 
     <body>
 
         <section class="jumbotron">
             <div class="container">
-                <h1><abbr title="Cognitive Science Student Society">[CS^3]</abbr></h1>
+                <h1><abbr title="Cognitive Science Student Society">[CS<sup>3</sup>]</abbr></h1>
                 <p>We mind how you think.</p>
             </div>
-            
+
             <div class="contact">
                <div class="container">
                     <ul>
-                        <li>President:</li>
-                        <li>Vice President:</li>
-                        <li>Secretary:</li>
-                        <li>Treasurer:</li>
-                        <li>Communications:</li>
+                        <li>President: Aaron Richardson</li>
+                        <li>Vice President: Daniel McVeigh</li>
+                        <li>Secretary: Stephen</li>
+                        <li>Treasurer: Lost Soul</li>
+                        <li>Communications Officer: Anita Wong</li>
                     </ul>
                </div>
            </div>
-        
         </section>
       
-    <div class = "gallery-nav">
-        <div class = "container">
-            
-                    <img id="thumbnail" src = "Nav-Society.jpg">
-                    <img id="thumbnail" src = "Nav-Events.jpg">
-                    <img id="thumbnail" src = "Nav-People.jpg">
-                    <img id="thumbnail" src = "Nav-Contact.jpg">
+        <div class = "gallery-nav">
+            <div class = "container">
 
+                        <a id="thumbnail" href="#societys"><img src = "Nav-Society.jpg"></a>
+                        <a id="thumbnail" href="#eventss"><img src = "Nav-Events.jpg"></a>
+                        <a id="thumbnail" href="#peoples"><img src = "Nav-People.jpg"></a>
+                        <a id="thumbnail" href="#"><img src = "Nav-Contact.jpg"></a>
+            </div>
+        </div> 
+        
+        <!--SOCIETY DIV-->
+        <div class="society">
+            <a name="societys">
+                <div class="container">
+                </div>
+            </a>
+            <div class ="socnav">
+                <div class="container">
+                    <h1>Society</h1>
+                      <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#const">Constitution</a></li>
+                        <li><a data-toggle="tab" href="#cont1">Second Society</a></li>
+                        <li><a data-toggle="tab" href="#cont2">Third Society</a></li>
+                        <li><a data-toggle="tab" href="#cont3">Fourth Society</a></li>
+                      </ul>
+                      <div class="tab-content">
+                        <div id="const" class="tab-pane fade in active">
+                          <h3>CS<sup>3</sup> Constitution</h3>
+                          <p>Here be the rules for yar society:</p>
+                            <ol>
+                                <li>Don't talk about rule 1.</li>
+                                <li>DON'T talk about rule 2.</li>
+                                <li>Don't rule 3 talk about.</li>
+                            </ol>
+                            <img src="medium-size.jpg">
+                        </div>
+                        <div id="cont1" class="tab-pane fade">
+                          <h3>Second Society</h3>
+                          <p>Put yer content in here.</p>
+                            <ul>
+                                <li>Content #1.</li>
+                                <li>Content #2.</li>
+                                <li>Content #3.</li>
+                            </ul>
+                            <img src="medium-size.jpg">
+                        </div>
+                        <div id="cont2" class="tab-pane fade">
+                          <h3>Third Society</h3>
+                          <p>Put yer content in here.</p>
+                            <ul>
+                                <li>Content #1.</li>
+                                <li>Content #2.</li>
+                                <li>Content #3.</li>
+                            </ul>
+                            <img src="medium-size.jpg">
+                        </div>
+                        <div id="cont3" class="tab-pane fade">
+                          <h3>Fourth Society</h3>
+                          <p>Put yer content in here.</p>
+                            <ul>
+                                <li>Content #1.</li>
+                                <li>Content #2.</li>
+                                <li>Content #3.</li>
+                            </ul>
+                            <img src="medium-size.jpg">
+                        </div>
+                      </div>
+                    </div>
+                </div>
         </div>
-    </div>
-      
-    <div class="society">
-	  <div class="container">
-		<h1>Society</h1>
-          <p>Get Societal.</p>
-	  </div>
-	</div>
-      
-      <div class="events">
-	  <div class="container">
-		<h1>Events</h1>
-          <p>Get Eventful.</p>
-	  </div>
-	</div>
-      
+        
+        <!--EVENTS DIV-->
+        <div class="events">
+            <a name="eventss">
+                <div class="container">
+                </div>
+            </a>
+            <div class ="evenav">
+                <div class="container">
+                    <h1>Events</h1>
+                    <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#calnd">Calander</a></li>
+                            <li><a data-toggle="tab" href="#event1">Second Society</a></li>
+                            <li><a data-toggle="tab" href="#event2">Third Society</a></li>
+                            <li><a data-toggle="tab" href="#event3">Fourth Society</a></li>
+                          </ul>
+                          <div class="tab-content">
+                            <div id="calnd" class="tab-pane fade in active">
+                              <h3>CS<sup>3</sup> Calander</h3>
+                              <p>Here be the event for yar society:</p>
+                                <ol>
+                                    <li>Movie night.</li>
+                                    <li>Movie night.</li>
+                                    <li>Movie night.</li>
+                                    <li>Spend university money on booze night.</li>
+                                </ol>
+                                <img src="medium-size.jpg">
+                            </div>
+                            <div id="event1" class="tab-pane fade">
+                              <h3>Second Events</h3>
+                              <p>Put yer content in here.</p>
+                                <ul>
+                                    <li>Content #1.</li>
+                                    <li>Content #2.</li>
+                                    <li>Content #3.</li>
+                                </ul>
+                                <img src="medium-size.jpg">
+                            </div>
+                            <div id="event2" class="tab-pane fade">
+                              <h3>Third Event</h3>
+                              <p>Put yer content in here.</p>
+                                <ul>
+                                    <li>Content #1.</li>
+                                    <li>Content #2.</li>
+                                    <li>Content #3.</li>
+                                </ul>
+                                <img src="medium-size.jpg">
+                            </div>
+                            <div id="event3" class="tab-pane fade">
+                              <h3>Fourth Event</h3>
+                              <p>Put yer content in here.</p>
+                                <ul>
+                                    <li>Content #1.</li>
+                                    <li>Content #2.</li>
+                                    <li>Content #3.</li>
+                                </ul>
+                                <img src="medium-size.jpg">
+                            </div>
+                          </div>
+                </div>
+            </div>
+        </div>
+        
+      <!--PEOPLE DIV-->
       <div class="people">
-	  <div class="container">
-		<h1>People</h1>
-          <p>Get Peopled.</p>
-	  </div>
-	</div>
+          <a name ="peoples">
+              <div class="container">
+              </div>
+          </a>
+          <div class ="pepnav">
+              <div class ="container">
+                  <h1>People</h1>
+                  <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#stud">Students</a></li>
+                            <li><a data-toggle="tab" href="#alum">Alumni</a></li>
+                            <li><a data-toggle="tab" href="#fac">Faculty</a></li>
+                            <li><a data-toggle="tab" href="#adv">Advising</a></li>
+                          </ul>
+                          <div class="tab-content">
+                            <div id="stud" class="tab-pane fade in active">
+                              <h3>Cognitive Science Students</h3>
+                              <p>Here be the students for yar department:</p>
+                                <ol>
+                                    <li>Aaron</li>
+                                    <li>Dan</li>
+                                    <li>Anita</li>
+                                    <li>Stephen</li>
+                                </ol>
+                                <img src="medium-size.jpg">
+                            </div>
+                            <div id="alum" class="tab-pane fade">
+                              <h3>Cognitive Science Alumni</h3>
+                              <p>Put yer content in here.</p>
+                                <ul>
+                                    <li>Content #1.</li>
+                                    <li>Content #2.</li>
+                                    <li>Content #3.</li>
+                                </ul>
+                                <img src="medium-size.jpg">
+                            </div>
+                            <div id="fac" class="tab-pane fade">
+                              <h3>Cognitive Science Faculty</h3>
+                              <p>Put yer content in here.</p>
+                                <ul>
+                                    <li>Content #1.</li>
+                                    <li>Content #2.</li>
+                                    <li>Content #3.</li>
+                                </ul>
+                                <img src="medium-size.jpg">
+                            </div>
+                            <div id="adv" class="tab-pane fade">
+                              <h3>Advising</h3>
+                              <p>Put yer content in here.</p>
+                                <ul>
+                                    <li>Allen Yee</li>
+                                    <li>Email: psycadvs@sfu.ca</li>
+                                    <li>Office: RCB 5253</li>
+                                </ul>
+                                <img src="medium-size.jpg">
+                            </div>
+                          </div>
+              </div>
+          </div>
+        </div>
       
   </body>
 </html>
