@@ -48,12 +48,13 @@ ul{
     justify-content: center;
 }
 
-#thumbnail{
+.gallery-nav .container a{
     margin: 10px 5%;
     border-style: solid;
     border-width: 2px;
     border-color: #5e5e5e;
 }
+
 
 .gallery-nav h2 {
     color: #393c3d;
