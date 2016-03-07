@@ -86,10 +86,14 @@ ul{
     color:black;
 }
 
+.society {
+    display: none;
+}
+
 .events{
-    
+    display:none;
 }
 
 .people{
-    
+    display: none;
 }
