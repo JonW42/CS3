@@ -37,11 +37,7 @@ ul{
     color:#8c1c40;
     text-align: center;
     margin-top: 100px;
-}
-
-.jumbotron .contact li{
-    
-
+    text-shadow: 1px 1px 4px #000000;
 }
 
 .gallery-nav {
@@ -103,3 +99,4 @@ ul{
 .people{
     display: none;
 }
+
