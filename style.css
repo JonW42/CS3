@@ -2,7 +2,7 @@ ul{
     list-style: none;
 }
 
-.jumbotron{
+.jumbotron {
     background-image:url('sfucsssbanner.jpg');
     height: 500px;
     background-repeat: no-repeat;
@@ -10,14 +10,14 @@ ul{
     margin:auto;
 }
 
-.jumbotron .container{ 
+.jumbotron .container .title { 
     position:absolute;
     top:0px;
     left:0px;
     top: 0px;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     color: #f9a962;
     font-size: 48px;  
     font-family: 'Shift', sans-serif;
@@ -30,15 +30,21 @@ ul{
 }
 
 .jumbotron .contact{
-    display:none;
-    font-size: 36px;
-    color: #fff;
-    position:absolute;
-    top:100px;
-    left:300px;
+    display: none;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: 500;
+    color:#8c1c40;
+    text-align: center;
+    margin-top: 100px;
 }
 
-.gallery-nav{
+.jumbotron .contact li{
+    
+
+}
+
+.gallery-nav {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 }
@@ -48,7 +54,7 @@ ul{
     justify-content: center;
 }
 
-.gallery-nav .container a{
+.gallery-nav .container a {
     margin: 10px 5%;
     border-style: solid;
     border-width: 2px;
